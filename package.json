@@ -1,15 +1,14 @@
 {
   "name": "monster_future",
   "version": "1.0.0",
+  "description": "A Node.js application",
   "engines": {
-    "node": "18.x"
+    "node": ">=20.0.0"
   },
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "nodemailer": "^6.9.4",
-    "cors": "^2.8.5"
+    "express": "^4.18.0"
   }
 }
